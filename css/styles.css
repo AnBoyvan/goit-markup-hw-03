@@ -1,0 +1,222 @@
+:root {
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --primary-white-color: #FFFFFF;
+    --accent-color: #2196F3;
+    --primary-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;    
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+body {
+    font-family: var(--primary-font-family);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+/*================= COMPONENTS =================*/
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+/*================= /COMPONENTS/ =================*/
+
+/*================= HEADER =================*/
+.header {
+    background-color: var(--primary-white-color)
+}
+
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+}
+
+.logo-element {
+    color: var(--accent-color);
+}
+
+.menu-element {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.header-contacts-element {
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+/*================= /HEADER =================*/
+
+/*================= MAIN =================*/
+/*================= HERO =================*/
+
+.hero {
+    background-color: #2F303A;;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);    
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: var(--primary-font-family);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-white-color);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+}
+/*================= /HERO =================*/
+
+/*================= FEATURES =================*/
+.features-description-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.features-description {
+    line-height: 1.71;
+}
+/*================= /FEATURES =================*/
+
+/*================= WORK =================*/
+/*================= /WORK =================*/
+
+/*================= TEAM =================*/
+.team {
+    background-color: #F5F4FA;
+}
+
+.team-member {
+    background-color: var(--primary-white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.team-member-position {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+/*================= /TEAM =================*/
+
+/*================= PORTFOLIO =================*/
+.filter-btn {
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    font-family: var(--primary-font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: var(--primary-white-color);
+}
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
+}
+
+.projects-list-item {
+    background-color: var(--primary-white-color);
+    border: 1px solid #EEEEEE;
+}
+
+.project-description {
+    font-size: 16px;
+    line-height: 1.88;
+}
+/*================= /PORTFOLIO =================*/
+/*================= /MAIN =================*/
+
+/*================= FOOTER =================*/
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color: var(--primary-white-color);
+}
+
+.address-text {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-white-color);
+}
+
+.footer-contacts-element {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+/*================= /FOOTER =================*/
