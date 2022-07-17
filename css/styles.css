@@ -34,8 +34,6 @@ body {
 
 /*================= COMPONENTS =================*/
 .list {
-  display: flex;
-  gap: 30px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -55,7 +53,7 @@ body {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   text-align: center;
   color: var(--secondary-text-color);
 }
@@ -90,9 +88,12 @@ body {
 /*================= /COMPONENTS/ =================*/
 
 /*================= HEADER =================*/
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header {
   height: 80px;
-  border-bottom: 1px solid #ececec;
 }
 
 .nav {
@@ -113,6 +114,10 @@ body {
 
 .logo-element {
   color: var(--accent-color);
+}
+
+.menu {
+  display: flex;
 }
 
 .menu-item:not(:last-child) {
@@ -204,6 +209,15 @@ body {
 /*================= /HERO =================*/
 
 /*================= FEATURES =================*/
+.features-list {
+  display: flex;
+  gap: 30px;
+}
+
+.features-list-item {
+  width: 270px;
+}
+
 .features-description-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -222,11 +236,21 @@ body {
 .work {
   padding-top: 0;
 }
+
+.work-list {
+  display: flex;
+  gap: 30px;
+}
 /*================= /WORK =================*/
 
 /*================= TEAM =================*/
 .team {
   background-color: #f5f4fa;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
 }
 
 .team-member {
@@ -325,13 +349,13 @@ body {
 footer {
   height: 252px;
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -341,12 +365,8 @@ footer {
   color: var(--primary-white-color);
 }
 
-.address:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .address-text {
-  display: block;
+  margin-bottom: 9px;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -359,5 +379,9 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts-element:not(:last-child) {
+  margin-bottom: 9px;
 }
 /*================= /FOOTER =================*/
